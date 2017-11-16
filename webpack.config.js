@@ -1,10 +1,7 @@
 module.exports = {
-  entry: "./lib/harvest_sun.js",
+  entry: "./lib/js/harvest_sun.js",
   output: {
   	filename: "./lib/bundle.js"
   },
-  devtool: 'source-map',
-  resolve: {
-    extensions: ["", ".js"]
-  }
+  devtool: 'source-map'
 };

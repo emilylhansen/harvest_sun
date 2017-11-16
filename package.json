@@ -2,14 +2,22 @@
   "name": "harvest_sun",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilylhansen/harvest_sun.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilylhansen/harvest_sun/issues"
+  },
+  "homepage": "https://github.com/emilylhansen/harvest_sun#readme",
   "dependencies": {
     "webpack": "^3.8.1"
   }

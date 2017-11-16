@@ -4,10 +4,23 @@
     <meta charset="utf-8">
     <title>Harvest Sun</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!-- <script src="./lib/harvest_sun.js"></script> -->
     <script src="./lib/bundle.js"></script>
+    <link rel="stylesheet" type="text/css"  href="./lib/css/main.css">
+    <link rel="stylesheet" type="text/css"  href="./lib/css/basket.css">
   </head>
   <body>
-    <canvas id="canvas" width="600" height="300" style="border: 1px solid black;"></canvas>
+    <div class="main">
+      <div class="basket">
+        <div class="basket-list">
+          <h4>Basket</h4>
+          <ul class="basket-ul">
+          </ul>
+        </div>
+        <div class="basket-wallet">
+          <h4>Wallet</h4>
+        </div>
+      </div>
+      <canvas id="canvas" width="600" height="300" style="border: 1px solid black;"></canvas>
+    </div>
   </body>
 </html>
