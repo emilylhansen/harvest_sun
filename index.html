@@ -6,21 +6,38 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="./lib/bundle.js"></script>
     <link rel="stylesheet" type="text/css"  href="./lib/css/main.css">
-    <link rel="stylesheet" type="text/css"  href="./lib/css/basket.css">
+    <link rel="stylesheet" type="text/css"  href="./lib/css/backpack.css">
+    <link rel="stylesheet" type="text/css"  href="./lib/css/ship_container.css">
   </head>
   <body>
     <div class="main">
-      <div class="basket">
-        <div class="basket-list">
-          <h4>Basket</h4>
-          <ul class="basket-ul">
-          </ul>
-        </div>
-        <div class="basket-wallet">
-          <h4>Wallet</h4>
+
+      <div class="backpack">
+        <div class="backpack-wrapper">
+          <div class="backpack-list">
+            <h4>Backpack</h4>
+            <div class="backpack-ul-wrapper">
+              <ul class="backpack-ul">
+              </ul>
+            </div>
+          </div>
+          <div class="backpack-wallet">
+            <h4>Wallet</h4>
+          </div>
         </div>
       </div>
+
       <canvas id="canvas" width="600" height="300" style="border: 1px solid black;"></canvas>
+
+      <div id="ship-container-modal">
+        <h4>Shipping Container</h4>
+        <div class="ship-container-content">
+          <table class="ship-container-content-table">
+          </table>
+          <h4 class="ship-container-content-total">Total: 0</h4>
+          <button type="button" name="button" >Sell</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,0 +1,74 @@
+.backpack {
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  display: none;
+  padding: 15px;
+}
+
+.backpack h4 {
+  margin: 0px;
+}
+
+.backpack-show {
+  display: block;
+}
+
+.backpack-wrapper{
+  /*border: 1px solid black;*/
+  width: 100%;
+  height: 100%;
+
+}
+
+.backpack-list {
+  margin: 0 auto;
+  /*border: 1px solid black;*/
+  height: 280px;
+  /*width: 100%;*/
+  position: relative;
+
+}
+
+.backpack-ul-wrapper {
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 240px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.backpack-ul{
+  overflow: scroll;
+  margin: 0 auto;
+  border: 1px solid black;
+  position: relative;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  width: 90%;
+  /*height: 90%;*/
+  flex-wrap: wrap;
+}
+
+.backpack-ul li {
+  border: 1px solid black;
+  /*float: left;*/
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /*display: flex;*/
+
+}
+
+.backpack-wallet {
+  position: relative;
+  margin: 0 auto;
+  /*border: 1px solid green;*/
+  /*height: 48px;*/
+}
+
+.backpack-item-price {
+  text-align: center;
+  align-content: center;
+}
