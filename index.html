@@ -8,9 +8,11 @@
     <link rel="stylesheet" type="text/css"  href="./lib/css/main.css">
     <link rel="stylesheet" type="text/css"  href="./lib/css/backpack.css">
     <link rel="stylesheet" type="text/css"  href="./lib/css/ship_container.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="main">
+      <canvas id="canvas" width="600" height="300" style="border: 1px solid black;"></canvas>
 
       <div class="backpack">
         <div class="backpack-wrapper">
@@ -27,17 +29,24 @@
         </div>
       </div>
 
-      <canvas id="canvas" width="600" height="300" style="border: 1px solid black;"></canvas>
-
       <div id="ship-container-modal">
+        <div class="ship-container-modal-exit">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+        </div>
         <h4>Shipping Container</h4>
         <div class="ship-container-content">
           <table class="ship-container-content-table">
+            <tr>
+              <th>NAME</th>
+              <th>PRICE</th>
+              <th>QUANTITY</th>
+            </tr>
           </table>
           <h4 class="ship-container-content-total">Total: 0</h4>
           <button type="button" name="button" id="sell-btn">Sell</button>
         </div>
       </div>
+
     </div>
   </body>
 </html>

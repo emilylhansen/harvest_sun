@@ -1,12 +1,32 @@
 #ship-container-modal {
   border: 1px solid black;
-  width: 200px;
+  width: 600px;
   height: 300px;
   display: none;
-  z-index: 1
-  /*left: 20px;
-  top: 0;*/
-  position:absolute;
+  z-index: 1;
+  position: absolute;
   background-color: gray;
   overflow: scroll;
+  align-content: center;
+  text-align: center;
+}
+
+.ship-container-modal-exit {
+  width: 100%;
+  height: 20px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.ship-container-modal-exit i{
+  float:right;
+  margin: 15px;
+}
+
+.fa-times-circle:hover {
+  cursor: pointer;
+}
+
+.ship-container-content-table {
+  width: 100%;
 }
